@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+int a,b,multiplication,division;
+printf("enter value of a=");
+scanf("%d",&a);
+printf("enter value of b=");
+scanf("%d",&b);
+multiplication=a*b;
+division=a/b;
+printf("multiplication of two numbers=%d",multiplication);
+printf("\ndivision of two numbers=%d",division);
+return 0;
+}
+\*enter value of a=10
+enter value of b=20
+multiplication of two numbers=200.000000
+division of two numbers=0.500000*\
